@@ -1,0 +1,6 @@
+1.docker compose up -d --force-recreate
+(Dùng để update lại image khi thay đổi tronng file compose.yml khi container chưa chạy)
+
+2. docker compose restart wordpress
+(Cũng dùng để update lại images khi thay đổi file trong compose.yml nhưng mà khi docker đang chạy container đó)
+
