@@ -1,12 +1,13 @@
 # wordpress-docker
 Hướng dẫn cài đặt
 
-1. docker compose up
+1.docker compose up
 (Dùng để cài đặt container cho ứng dụng wordpress)
+Chỉ cần làm mỗi bước 1
 
 2.docker compose up -d --force-recreate
 (Dùng để update lại image khi thay đổi tronng file compose.yml khi container chưa chạy)
 
-2. docker compose restart wordpress
+3.docker compose restart wordpress
 (Cũng dùng để update lại images khi thay đổi file trong compose.yml nhưng mà khi docker đang chạy container đó)
 
